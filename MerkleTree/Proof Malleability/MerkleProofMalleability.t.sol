@@ -6,7 +6,7 @@ import "forge-std/console.sol";
 import "src/VulnerableAirdropContract.sol";
 
  /*
-  * @title SignatureMalleabilityTest
+  * @title MerkleProofMalleability Test
   */
  
 contract SignatureMalleabilityTest is Test {
