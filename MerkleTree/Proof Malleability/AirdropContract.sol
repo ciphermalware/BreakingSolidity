@@ -8,10 +8,8 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 /**
  * @title AirdropContract
  * @dev An airdrop contract that uses Merkle trees for claim validation
- *      Contains a critical signature malleability vulnerability where
- *      multiple valid proofs can be generated for the same leaf which allows
- *      users to claim airdrops multiple times
- * 
+ *      Contains a critical Merkle proof malleability vulnerability where
+ *      an attacker can forge a valid proof
  */
 contract VulnerableAirdropContract is ReentrancyGuard, Ownable {
     
