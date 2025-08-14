@@ -1,4 +1,4 @@
-After running the following test command `forge test --match-test testMerkleTreeVulnerability -vvv` this is the output that confirms the vulnerability:
+After running the following Foundry test command `forge test --match-test testMerkleTreeVulnerability -vvv` this is the output that confirms the vulnerability:
 
 ```
 forge test --match-test testMerkleTreeVulnerability -vvv
