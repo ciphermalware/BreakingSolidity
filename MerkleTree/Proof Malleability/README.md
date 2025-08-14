@@ -1,4 +1,4 @@
-After running the following command `forge test --match-contract SignatureMalleabilityTest -vvv` this is the output that confirms the vulnerability:
+After running the following Foundry command `forge test --match-contract SignatureMalleabilityTest -vvv` this is the output that confirms the vulnerability:
 
 ```
 Ran 5 tests for test/SignatureMalleability.t.sol:SignatureMalleabilityTest
